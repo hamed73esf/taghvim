@@ -33,7 +33,7 @@ class test
     }
     private static void month_1(int a)
     {
-        Console.WriteLine("farvardin:");
+        Console.WriteLine("Farvardin:");
         Console.WriteLine("Saturday Sunday Monday Tuesday Wednesday Thursday Friday");
         if (a == 0)
         {
@@ -191,7 +191,7 @@ class test
     }
     private static void month_2(int a)
     {
-        Console.WriteLine("ordibehesht:");
+        Console.WriteLine("Ordibehesht:");
         Console.WriteLine("Saturday Sunday Monday Tuesday Wednesday Thursday Friday");
         a += 3;
         if (a == 0 | a == 7 )
@@ -350,7 +350,7 @@ class test
     }
     private static void month_3(int a)
     {
-        Console.WriteLine("khordad:");
+        Console.WriteLine("Khordad:");
         Console.WriteLine("Saturday Sunday Monday Tuesday Wednesday Thursday Friday");
         a += 6;
         if (a == 0|a==7)
@@ -509,7 +509,7 @@ class test
     }
     private static void month_4(int a)
     {
-        Console.WriteLine("tir:");
+        Console.WriteLine("Tir:");
         Console.WriteLine("Saturday Sunday Monday Tuesday Wednesday Thursday Friday");
         a += 2;
         if (a == 0 | a == 7 )
@@ -668,7 +668,7 @@ class test
     }
     private static void month_5(int a)
     {
-        Console.WriteLine("mordad:");
+        Console.WriteLine("Mordad:");
         Console.WriteLine("Saturday Sunday Monday Tuesday Wednesday Thursday Friday");
         a += 5;
         if (a == 0|a==7)
@@ -827,7 +827,7 @@ class test
     }
     private static void month_6(int a)
     {
-        Console.WriteLine("shahrivar:");
+        Console.WriteLine("Shahrivar:");
         Console.WriteLine("Saturday Sunday Monday Tuesday Wednesday Thursday Friday");
         a += 1;
         if (a == 0|a==7)
@@ -986,7 +986,7 @@ class test
     }
     private static void month_7(int a)
     {
-        Console.WriteLine("mehr:");
+        Console.WriteLine("Mehr:");
         Console.WriteLine("Saturday Sunday Monday Tuesday Wednesday Thursday Friday");
         a += 4;
         if (a == 0|a==7)
@@ -1145,7 +1145,7 @@ class test
     }
     private static void month_8(int a)
     {
-        Console.WriteLine("aban:");
+        Console.WriteLine("Aban:");
         Console.WriteLine("Saturday Sunday Monday Tuesday Wednesday Thursday Friday");
         a += 6;
         if (a == 0 | a == 7)
@@ -1304,7 +1304,7 @@ class test
     }
     private static void month_9(int a)
     {
-        Console.WriteLine("azar:");
+        Console.WriteLine("Azar:");
         Console.WriteLine("Saturday Sunday Monday Tuesday Wednesday Thursday Friday");
         a += 1;
         if (a == 0 | a == 7)
@@ -1463,7 +1463,7 @@ class test
     }
     private static void month_10(int a)
     {
-        Console.WriteLine("dey:");
+        Console.WriteLine("Dey:");
         Console.WriteLine("Saturday Sunday Monday Tuesday Wednesday Thursday Friday");
         a += 3;
         if (a == 0 | a == 7)
@@ -1622,7 +1622,7 @@ class test
     }
     private static void month_11(int a)
     {
-        Console.WriteLine("bahman:");
+        Console.WriteLine("Bahman:");
         Console.WriteLine("Saturday Sunday Monday Tuesday Wednesday Thursday Friday");
         a += 5;
         if (a == 0 | a == 7)
@@ -1781,7 +1781,7 @@ class test
     }
     private static void month_12(int a)
     {
-        Console.WriteLine("esfand:");
+        Console.WriteLine("Esfand:");
         Console.WriteLine("Saturday Sunday Monday Tuesday Wednesday Thursday Friday");
         if (a == 0 | a == 7)
         {
@@ -1936,5 +1936,6 @@ class test
                 }
             }
         }
+        Console.ReadKey();
     }
 }
